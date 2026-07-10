@@ -1,0 +1,82 @@
+{
+  "packet_type": "se6triad_state_packet",
+  "version": "0.1.0",
+  "input": "Launch attention for CommandCenterOS and get early users.",
+  "observe": {
+    "surface_intent": "launch campaign",
+    "assets_available": [
+      "avatar visuals",
+      "workflow images",
+      "runtime concept"
+    ]
+  },
+  "reflect": {
+    "deeper_intent": "capture attention and convert to builder feedback",
+    "core_message": "AI should not replace you. AI should report to you."
+  },
+  "classify": {
+    "task_type": [
+      "marketing",
+      "agent workflow",
+      "public launch"
+    ],
+    "risk_level": "medium"
+  },
+  "constrain": {
+    "requires_approval": [
+      "public posting",
+      "direct outreach",
+      "unsupported claims"
+    ],
+    "blocked": [
+      "spam",
+      "mass blind messaging",
+      "false guarantees"
+    ]
+  },
+  "route": {
+    "agents": [
+      "Apollo",
+      "Kama",
+      "Saraswati",
+      "Morpheus",
+      "Dionysus",
+      "Nike",
+      "Lakshmi",
+      "Themis",
+      "Mnemosyne"
+    ],
+    "tools": [
+      "X",
+      "LinkedIn",
+      "YouTube",
+      "landing page",
+      "email list",
+      "analytics"
+    ]
+  },
+  "act": {
+    "next_action": "draft launch post and ask for approval"
+  },
+  "audit": {
+    "log_required": true,
+    "record": [
+      "content",
+      "platform",
+      "approval",
+      "timestamp",
+      "result"
+    ]
+  },
+  "learn": {
+    "measure": [
+      "views",
+      "comments",
+      "waitlist",
+      "demos",
+      "cost",
+      "revenue"
+    ],
+    "update_next_state": true
+  }
+}
