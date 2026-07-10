@@ -1,0 +1,59 @@
+{
+  "principle": "Prepare automatically. Execute with permission. Audit everything. Measure value.",
+  "actions": [
+    {
+      "action": "summarize_document",
+      "default_mode": "automatic",
+      "approval_required": false,
+      "logged_by": "Mnemosyne"
+    },
+    {
+      "action": "draft_email",
+      "default_mode": "automatic",
+      "approval_required": false,
+      "logged_by": "Mnemosyne"
+    },
+    {
+      "action": "send_email",
+      "default_mode": "prepared",
+      "approval_required": true,
+      "logged_by": "Themis + Mnemosyne"
+    },
+    {
+      "action": "post_publicly",
+      "default_mode": "prepared",
+      "approval_required": true,
+      "logged_by": "Themis + Mnemosyne"
+    },
+    {
+      "action": "make_phone_call",
+      "default_mode": "prepared",
+      "approval_required": true,
+      "logged_by": "Themis + Hermes"
+    },
+    {
+      "action": "move_money",
+      "default_mode": "prepared_only",
+      "approval_required": true,
+      "logged_by": "Themis + Plutus"
+    },
+    {
+      "action": "sign_legal_document",
+      "default_mode": "prepared_only",
+      "approval_required": true,
+      "logged_by": "Themis + Hera"
+    },
+    {
+      "action": "create_account",
+      "default_mode": "prepared_only",
+      "approval_required": true,
+      "logged_by": "Themis + Janus Gate"
+    },
+    {
+      "action": "use_credentials",
+      "default_mode": "limited_access",
+      "approval_required": "contextual",
+      "logged_by": "Hades + Mnemosyne"
+    }
+  ]
+}
