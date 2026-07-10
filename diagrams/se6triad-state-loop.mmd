@@ -1,0 +1,12 @@
+flowchart TD
+    A[User Intent] --> B[Observe]
+    B --> C[Reflect]
+    C --> D[Classify]
+    D --> E[Constrain]
+    E --> F[Route]
+    F --> G[Agent + Tool Execution]
+    G --> H[Audit Log]
+    H --> I[Memory Update]
+    I --> J[Cost-to-Value Measurement]
+    J --> K[Next State]
+    K --> B
