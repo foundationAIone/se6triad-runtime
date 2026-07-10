@@ -1,0 +1,42 @@
+{
+  "user_command": "Launch attention for CommandCenterOS and get early users.",
+  "se6triad_state": {
+    "intent": "attention and lead generation",
+    "risk": [
+      "public posting",
+      "outreach",
+      "unsupported claims"
+    ],
+    "tools_needed": [
+      "X",
+      "LinkedIn",
+      "YouTube",
+      "landing page",
+      "email list",
+      "analytics"
+    ],
+    "agents_needed": [
+      "Apollo",
+      "Kama",
+      "Saraswati",
+      "Morpheus",
+      "Dionysus",
+      "Nike",
+      "Lakshmi",
+      "Themis",
+      "Mnemosyne"
+    ]
+  },
+  "workflow": [
+    "Apollo scans trends and target communities.",
+    "Kama identifies the attention hook.",
+    "Saraswati writes posts and scripts.",
+    "Morpheus creates visuals.",
+    "Themis checks claims and approval rules.",
+    "Dionysus publishes approved content.",
+    "Nike captures leads.",
+    "Lakshmi measures value.",
+    "Mnemosyne logs results.",
+    "SE6Triad updates the next campaign state."
+  ]
+}
