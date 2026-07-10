@@ -1,0 +1,10 @@
+{
+  "test_name": "SE6Triad context compression test",
+  "normal_context_estimated_tokens_char": 20669,
+  "se6triad_state_packet_estimated_tokens_char": 1188,
+  "estimated_reduction_percent_char": 94.25,
+  "normal_context_estimated_tokens_regex": 15758,
+  "se6triad_state_packet_estimated_tokens_regex": 378,
+  "estimated_reduction_percent_regex": 97.6,
+  "claim": "This test shows structured state packets can reduce repeated context size. It does not yet prove production API billing reduction."
+}
