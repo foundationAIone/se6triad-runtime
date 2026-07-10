@@ -1,0 +1,86 @@
+{
+  "root_avatar": {
+    "agent": "Paramashiva",
+    "role": "User's AI CEO avatar / executive command identity"
+  },
+  "interface": {
+    "agent": "MIRA / Iris",
+    "role": "Voice, face, prompt window, approvals, reports"
+  },
+  "orchestration": {
+    "agent": "Zeus",
+    "role": "Mission commander / workflow coordinator"
+  },
+  "cognition": {
+    "agent": "Athena / SE6Triad",
+    "role": "Observe, reflect, classify, constrain, route, audit, learn"
+  },
+  "governance": [
+    {
+      "agent": "Themis",
+      "role": "Legal/risk/approval boundary"
+    },
+    {
+      "agent": "Hades",
+      "role": "Credential vault and secrets"
+    },
+    {
+      "agent": "Mnemosyne",
+      "role": "Audit, memory, records"
+    },
+    {
+      "agent": "Heimdall",
+      "role": "Security monitoring"
+    }
+  ],
+  "domains": [
+    {
+      "agent": "Lakshmi",
+      "role": "Prosperity and value measurement"
+    },
+    {
+      "agent": "Saraswati",
+      "role": "Knowledge, content, documents, language"
+    },
+    {
+      "agent": "Parvati",
+      "role": "Execution, protection, transformation"
+    },
+    {
+      "agent": "Hermes",
+      "role": "Phone, SMS, email, communication"
+    },
+    {
+      "agent": "Thoth",
+      "role": "Forms, documents, PDFs"
+    },
+    {
+      "agent": "Ogun",
+      "role": "Code, APIs, engineering"
+    },
+    {
+      "agent": "Morpheus",
+      "role": "Images, videos, avatar forms"
+    },
+    {
+      "agent": "Dionysus",
+      "role": "Social distribution and community"
+    },
+    {
+      "agent": "Kama",
+      "role": "Attention and demand ignition"
+    },
+    {
+      "agent": "Nike",
+      "role": "Growth and conversion"
+    },
+    {
+      "agent": "Plutus",
+      "role": "Treasury, bills, balances"
+    },
+    {
+      "agent": "Mercury",
+      "role": "Commerce and payments"
+    }
+  ]
+}
