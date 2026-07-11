@@ -26,3 +26,9 @@ jobs:
 
       - name: Run public proof summary
         run: python scripts/run_public_proof.py
+
+      - name: Run SE6 Gateway unit tests
+        run: python tests/test_gateway.py -v
+
+      - name: Run SE6 Gateway demo
+        run: python scripts/run_gateway_demo.py
